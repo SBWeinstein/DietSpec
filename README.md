@@ -14,3 +14,5 @@ __five_species.R:__ Code to make other components of Figure 4 and run analyses o
 __White_water_multiyear.R:__ Code to examine diet patterns across 13 surveys conducted at one site (White Water),focusing on seasonal differences, producing Figure 5, Figure 6A, 6D, and related figures in supplemental material. Requires ps_rarF_Bigtrnl_29Nov23.rds and vegetation greenness data from WW_scaled_NDVI.csv. 
 
 __White_water_IS.R:__ Code to test for individual specialization in repeated White water surveys using a Monte Carlo simulation based null model, creates Figure 6C. This script requires multiple components from White_water_multiyear.R, easiest if run immediatly after running previous script.
+
+__niche_density.R:__ Code to make Figure 6B. This script requires multiple components from White_water_multiyear.R, easiest if run immediatly after running previous script.
