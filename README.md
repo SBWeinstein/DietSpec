@@ -16,3 +16,7 @@ __White_water_multiyear.R:__ Code to examine diet patterns across 13 surveys con
 __White_water_IS.R:__ Code to test for individual specialization in repeated White water surveys using a Monte Carlo simulation based null model, creates Figure 6C. This script requires multiple components from White_water_multiyear.R, easiest if run immediatly after running previous script.
 
 __niche_density.R:__ Code to make Figure 6B. This script requires multiple components from White_water_multiyear.R, easiest if run immediatly after running previous script.
+
+__mark_recap.R:__ Code to test for within individual diet similarity in mark-recapture data from White water. Requires ps_rarF_Bigtrnl_29Nov23.rds
+
+__leave_out.R:__ Code for "leave one out" analysis to test which plants contribute to within individual diet similarity in mark-recapture data from White water. This script requires multiple components from White_water_multiyear.R, easiest if run immediatly after running previous script.
