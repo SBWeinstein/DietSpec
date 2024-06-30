@@ -7,4 +7,6 @@ __merge_filter_seqtables.R:__ Merge sequence tables, remove chimeras, construct 
 
 __all_pop_specialization.R:__ Code to examine diet variation, richness, individual specialization, niche expansion and effects of resource abundance on 57 woodrat populations. Includes contruction of figures 2 and 3, and related supplemental figures. Includes monte carlo resampling null model referenced in figure 3 and maintext. Requires ps_rarF_Bigtrnl_29Nov23.rds, diet_pops_30yrnorm_ppt_1980to2010_prism.csv (for precipitation effects on richness and niche width), and Diet_pops_factors_23mar24.csv (for effects of county-level plant family counts on richness and niche width).
 
-__Range_maps.R:__ Code to make maps included in Figure 4. Requires csv with population coordinates (Diet_pops_20Mar24.csv) and downloaded geojson files of range maps (From IUCN, see main text for citation)
+__Range_maps.R:__ Code to make maps included in Figure 4. Requires csv with population coordinates (Diet_pops_20Mar24.csv) and downloaded geojson files of range maps (From IUCN, see main text for citation).
+
+__five_species.R:__ Code to make other components of Figure 4 and run analyses on 5 populations with repeated sampling across their range. Requires ps_rarF_Bigtrnl_29Nov23.rds.
