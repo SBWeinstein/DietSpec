@@ -7,6 +7,10 @@ __merge_filter_seqtables.R:__ Merge sequence tables, remove chimeras, construct 
 
 __all_pop_specialization.R:__ Code to examine diet variation, richness, individual specialization, niche expansion and effects of resource abundance on 57 woodrat populations. Includes contruction of figures 2 and 3, and related supplemental figures. Includes monte carlo resampling null model referenced in figure 3 and maintext. Requires ps_rarF_Bigtrnl_29Nov23.rds, diet_pops_30yrnorm_ppt_1980to2010_prism.csv (for precipitation effects on richness and niche width), and Diet_pops_factors_23mar24.csv (for effects of county-level plant family counts on richness and niche width).
 
-__Range_maps.R:__ Code to make maps included in Figure 4. Requires csv with population coordinates (Diet_pops_20Mar24.csv) and downloaded geojson files of range maps (From IUCN, see main text for citation).
+__range_maps.R:__ Code to make maps included in Figure 4. Requires csv with population coordinates (Diet_pops_20Mar24.csv) and downloaded geojson files of range maps (From IUCN, see main text for citation).
 
 __five_species.R:__ Code to make other components of Figure 4 and run analyses on 5 populations with repeated sampling across their range. Requires ps_rarF_Bigtrnl_29Nov23.rds.
+
+__White_water_multiyear.R:__ Code to examine diet patterns across 13 surveys conducted at one site (White Water),focusing on seasonal differences, producing Figure 5, Figure 6A, 6D, and related figures in supplemental material. Requires ps_rarF_Bigtrnl_29Nov23.rds and vegetation greenness data from WW_scaled_NDVI.csv. 
+
+__White_water_IS.R:__ Code to test for individual specialization in repeated White water surveys using a Monte Carlo simulation based null model, creates Figure 6C. This script requires multiple components from White_water_multiyear.R, easiest if run immediatly after running previous script.
