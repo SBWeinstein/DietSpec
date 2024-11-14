@@ -22,3 +22,6 @@ __niche_density.R:__ Code to make Figure 6B. This script requires multiple compo
 __mark_recap.R:__ Code to test for within individual diet similarity in mark-recapture data from White water. Requires ps_rarF_Bigtrnl_29Nov23.rds
 
 __leave_out.R:__ Code for "leave one out" analysis to test which plants contribute to within individual diet similarity in mark-recapture data from White water. This script requires multiple components from White_water_multiyear.R, easiest if run immediatly after running previous script.
+
+__diet_subsamp.R:__ Code for Monte Carlo subsampling analysis, using 8 large diet datasets to test how smaller sample sizes in the range used in this study influence estimated diet parameters. This script requires ps_rarF_Bigtrnl_29Nov23.rds and ps_rarF_MatocqBL_26Oct24.rds, which comes from sequences downloaded from SRA accession PRJNA887535 (see citations in supporting information).  
+
