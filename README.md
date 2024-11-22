@@ -1,4 +1,4 @@
-## Rules of Herbivory: Large-scale surveys in woodrats (*Neotoma* spp.) reveal constraints on herbivore diet breadth and niche expansion
+## Large-scale surveys of woodrats (Neotoma spp.) reveal constraints on diet breadth in herbivorous mammals
 
 ### R scripts for manuscript are as follows:
 __trnl_processing.R:__ Initial processing of plant trnl amplicon sequences. Amplicon sequences are available from the NCBI sequence archive under BioProjects PRJNA722312, PRJNA875083, PRJNA1120941 and Klure and Dearing 2023 (https://doi.org/10.5061/dryad.ghx3ffbss).  T Inputs are fastq.gz files from each sequencing run. Output is a sequence table table.
